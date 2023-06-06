@@ -8,7 +8,7 @@
 body{
     background-color: rgba(246, 154, 34, 0.734);
     /* height: 100vh; */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .main-container{
     
@@ -294,9 +294,9 @@ background-color: rgb(182, 115, 245);
     .dateMonth{
         font-size: 22px;
     }
-    /* .greetingMessage{
+    .greetingMessage{
         font-size: 12px;
-    } */
+    }
     form input[type="submit"]{
         padding: 5px;
         margin-top: 3px;
