@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="currentWeatherDetails">
+            <div class="currentWeatherInfo">
+                <div class="time">
+                    
+                </div>
+                <div class="dateMonth">
+                
+                </div>
+                <!-- <div class="currentWeatherParent">
+                    
+                </div> -->
+            </div>
+            <div class="greetingMessage">
+                <h1> Let's See How's The Weather Today!</h1>
+                
+            </div>
+            <div class="form">
+                <form action="" class="formInput">
+                    <input type="text" required autocomplete="off" autofocus class="cityInput" placeholder="Enter City Name">
+                    <input type="submit" class="submit"value="Get Weather">
+                </form>
+               
+            </div>
+            
+        </div>
+        <div class="currentParent">
+           <div  class="showFutureForecasts showMP" >
+             <button class="showM" onclick="showMore()">Future Forecasts !</button>
+           </div>
+            <div class="currentWeatherParent">
+                <!-- <div class="currentWeatherItem">
+                    <div>Temp</div>
+                    <div>${convertTemp(temp)}°C</div>
+                  </div>
+                  <div class="currentWeatherItem">
+                    <div>Feels Like</div>
+                    <div class="s">${convertTemp(feels_like)}°C</div>
+                  </div>
+                  <div class="currentWeatherItem">
+                    <div>Min Temp</div>
+                    <div>${convertTemp(temp_min)}°C</div>
+                  </div>
+                  <div class="currentWeatherItem">
+                    <div>Max Temp</div>
+                    <div>${convertTemp(temp_max)}°C</div>
+                  </div> -->
+            </div>
+        </div>
+        <!-- <div class="buttonParent"> -->
+            <!-- <div onclick="showMore()" class="showMoreContainer"><button  class="showFutureForecasts">Future Forecasts !</button></div></div> -->
+        <!-- <div class="div"><div class="goBack">
+            <button onclick="goBackf()" class="back">Back</button>
+         </div></div> -->
+         <!-- <div class="goBackPosition">
+                <div onclick="goBackf()" class="goBack">
+                <button  class="back">Back</button>
+                </div>
+            
+         </div> -->
+        <div class="weatherForecastContainer">
+           <div class="backP"> <button onclick="goBackf()" class=" back">back</button> <span class="spanP">
+            Forecast for <span class="spanC">5days/3hr</span>!
+           </span>
+           </div>
+           <!-- <div class="goBackPosition">
+            <div class="div">
+                <div class="goBack">
+                <button onclick="goBackf()" class="back">Back</button>
+                </div>
+            </div>
+           </div>  -->
+            <!-- <div class="today" id="currentTemp" >
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="Weather icon">
+                <div class="todayOthers">
+                    <div class="day">Sunday</div>
+                    <div class="temp">Day - 33 &#176C</div>
+                    <div class="temp">Night - 25 &#176C</div>
+                </div>
+            </div> -->
+            <div class="weatherForecast">
+               
+                <!-- <div class="weatherForecastItem">
+                    <div class="day">Mon</div>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="Weather icon">
+                    <div class="temp">Day - 33 &#176C</div>
+                    <div class="temp">Night - 25 &#176C</div>
+                </div>
+                <div class="weatherForecastItem">
+                    <div class="day">Tue</div>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="Weather icon">
+                    <div class="temp">Day - 33 &#176C</div>
+                    <div class="temp">Night - 25 &#176C</div>
+                </div>
+                <div class="weatherForecastItem">
+                    <div class="day">Wed</div>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="Weather icon">
+                    <div class="temp">Day - 33 &#176C</div>
+                    <div class="temp">Night - 25 &#176C</div>
+                </div>-->
+                 <!-- <div class="weatherForecastItem">
+                    <div class="day">Thu</div>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="Weather icon">
+                    <div class="temp">Day - 33 &#176C</div>
+                    <div class="temp">Night - 25 &#176C</div>
+                </div>
+                <div class="weatherForecastItem">
+                    <div class="day">Fri</div>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="Weather icon">
+                    <div class="temp">Day - 33 &#176C</div>
+                    <div class="temp">Night - 25 &#176C</div>
+                </div>
+                 <div class="weatherForecastItem">
+                    <div class="day">Sat</div>
+                    <div class="duration">00am-3:00am</div>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="Weather icon">
+                    <div class="temp">Day - 33 &#176C</div>
+                    <div class="temp">Night - 25 &#176C</div>
+                </div>   -->
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
